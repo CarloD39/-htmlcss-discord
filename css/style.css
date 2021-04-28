@@ -76,6 +76,8 @@ header{
     text-align: right;
 }
 
+
+
 .login.fl .button-enter{
     border-radius: 40px;
     border: 0;
@@ -83,7 +85,6 @@ header{
     line-height: 24px;
     padding: 7px 16px;
     color: #23272a;;
-
 }
 
 
@@ -128,6 +129,14 @@ header{
 
 .browser{
     background-color: #23272a;;
+}
+
+/* --------FINE HEADER */
+/* --------------------------------------- */
+
+.container.part-1{
+    height: 680px;
+    background: chocolate;
 }
 
 
