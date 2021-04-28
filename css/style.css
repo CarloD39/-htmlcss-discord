@@ -23,7 +23,7 @@ header{
     /* border: 2px solid black; */
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -134,9 +134,31 @@ header{
 /* --------FINE HEADER */
 /* --------------------------------------- */
 
-.container.part-1{
+.container.box-1{
     height: 680px;
-    background: chocolate;
+    padding: 120px 0 120px 40px;
+    /* background: chocolate; */
 }
+
+.imgfl{
+    float: left;
+}
+
+.boxfl{
+    width: 380px;
+    float: left;
+    padding-top: 30px;
+}
+
+.boxfl h2{
+    font-size: 48px;
+}
+
+.expl-boxes{
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+
 
 
