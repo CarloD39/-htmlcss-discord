@@ -135,47 +135,34 @@ header{
 /* --------------------------------------- */
 
 .container.box-1{
+    /* background: olivedrab; */
+    height: 800px;
+}
+
+.piccolo-box{
     padding-top: 150px;
 }
 
-.imgfl{
+.fl-2{
     float: left;
-    background-image: url(../img/item1.svg);
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 700px;
 }
 
-
-.boxfl{
-    float: left;
-    position: relative;
-    /* height: 700px; */
-    width: 600px;
+.paragraph.fl-2{
+    width: 522px;
+    padding-top: 40px;
+    padding-left: 100px;
 }
 
-.titles-expl{
-    position: absolute;
-    max-width: 400px;
-    top: 25px;
-    right: 0;
-}
-
-.titles-expl span{
-    font-size: 45px;
+.paragraph.fl-2 span{
+    font-size: 48px;
     font-weight: bold;
 }
 
-.titles-expl div{
+.paragraph.fl-2 div{
+    margin-top: 20px;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 38px;
 }
-
-.explaination{
-    margin-top: 30px;
-}
-
-
 
 
 
