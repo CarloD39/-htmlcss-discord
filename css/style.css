@@ -76,6 +76,10 @@ header{
     text-align: right;
 }
 
+.button-enter{
+    background: white;
+}
+
 
 
 .login.fl .button-enter{
@@ -125,6 +129,7 @@ header{
 
 .download{
     color: #23272a;
+    background:white
 }
 
 .browser{
@@ -135,7 +140,6 @@ header{
 /* --------------------------------------- */
 
 .container.box-1{
-    /* background: olivedrab; */
     height: 800px;
 }
 
@@ -159,9 +163,53 @@ header{
 }
 
 .paragraph.fl-2 div{
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 20px;
     line-height: 38px;
+}
+
+
+.paragraph.final{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.paragraph.final span{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.paragraph.final .explain{
+    font-size: 20px;
+    line-height: 38px;
+    padding: 20px 30px;
+}
+
+.animation-2 img{
+    width: 1100px;
+}
+
+
+.adventure{
+    text-align: center;
+}
+
+.row-stars{
+    height: 50px;
+    margin: 200px 0 30px 0;
+    background: url(../img/stars.svg);
+    background-size:contain;
+}
+
+.row-stars>p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.download-2{
+    background-color: #7289da;
+    margin-right: 20px;
 }
 
 
